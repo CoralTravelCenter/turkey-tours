@@ -1486,11 +1486,6 @@ body > div.contentLayout-BaseContainer > div.notcritical > div > div:nth-child(2
     font-size: 8vw;
   }
 }
-@media screen and (max-width: 768px) and screen and (min-width: 768px) {
-  #site-wrap section.message-us > .contenu .phone-number {
-    font-size: 61.44px;
-  }
-}
 #site-wrap section.fly-turkish-airlines > .contenu .pad {
   padding: 0.5em;
   width: 100%;
