@@ -223,13 +223,13 @@ body > div.contentLayout-BaseContainer > div.notcritical > div > div:nth-child(2
 #site-wrap section.intro > .contenu {
   padding: 0;
   position: relative;
-  background: url("../iii/intro-03-desktop.jpg") center no-repeat;
+  background: url("../iii/intro-04-desktop.jpg") center no-repeat;
   background-size: cover;
 }
 #site-wrap section.intro > .contenu:before {
   content: '';
   display: block;
-  padding-top: 33.21194465%;
+  padding-top: 37.95620438%;
 }
 #site-wrap section.intro > .contenu > * {
   position: absolute;
@@ -241,12 +241,12 @@ body > div.contentLayout-BaseContainer > div.notcritical > div > div:nth-child(2
 @media screen and (max-width: 768px) {
   #site-wrap section.intro > .contenu {
     position: relative;
-    background-image: url(../iii/intro-03-mobile.jpg);
+    background-image: url(../iii/intro-04-mobile.jpg);
   }
   #site-wrap section.intro > .contenu:before {
     content: '';
     display: block;
-    padding-top: 138.88888889%;
+    padding-top: 124.02777778%;
   }
   #site-wrap section.intro > .contenu > * {
     position: absolute;
