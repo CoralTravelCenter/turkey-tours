@@ -1,0 +1,36 @@
+@import "../../common/css/common2";
+
+#site-wrap {
+	section {
+		> .contenu {
+
+		}
+		&.promo {
+			>.contenu {
+				.promos {
+					width: 100%;
+					display: flex;
+					flex-wrap: wrap;
+					.promo-item {
+						width: 50%;
+						padding: .5em;
+						@media screen and (max-width: @narrow-breakpoint) {
+							width: 100%;
+						}
+						> a {
+							display: block;
+							.proportional(677/401);
+							width: 100%;
+							background: center no-repeat;
+							background-size: cover;
+							border-radius: 1em;
+						}
+					}
+				}
+			}
+		}
+
+
+
+	}
+}
